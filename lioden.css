@@ -224,31 +224,31 @@ border-radius: 3px !important;
 
 /* Even Numbered Messages */
 .s-chat-message:nth-child(even) {
-  background: rgba(135,234,202,0.86) !important;
-  color: #084937 !important;
+  background: rgba(49,107,88,0.86) !important;
+  color: #e1f1ec !important;
   border: none !important
 }
 
 
 /* Odd Numbered Messages */
 .s-chat-message:nth-child(odd)  {
-  background: rgba(238,203,61,0.41) !important;
-  color: #084937 !important;
+  background: rgba(121,62,122,0.73) !important;
+  color: #daf3ec !important;
   border: none !important
 }
 
 
 /* Pinned Message */
 .s-chat-message__pinned {
-  background: rgba(236,104,232,0.44) !important;
-  color: #194f33 !important;
+  background: rgba(28,74,83,0.58) !important;
+  color: #d7f3e4 !important;
   border: none !important
 }
 
 
 /* Pings (@ messages) */
 #chatMessageList[data-pings="enabled"] .s-chat-message_mention {
-  background-color: rgba(0,255,165,0.59) !important;
+  background-color: rgba(226,35,92,0.74) !important;
   border-left: none;
 }
 
@@ -1836,4 +1836,5 @@ div.container.footer.center.white.visible-lg.visible-md.visible-sm a {
     opacity: 1;
     box-shadow: 0 0 2vw 0.4vw yellow;
   }
+
 }
